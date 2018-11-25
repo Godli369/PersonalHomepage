@@ -1,0 +1,125 @@
+<html><head><meta name="viewport" content="width=device-width">
+<style>
+	*{
+		margin:0;
+		box-sizing: border-box;
+	}
+	@media screen and (min-width: 320px){
+		html{
+			font-size:calc( 100px * 320 / 750 );
+		}
+	}
+	@media screen and (min-width: 360px){
+		html{
+			font-size:calc( 100px * 360 / 750 );
+		}
+	}
+	@media screen and (min-width: 375px){
+		html{
+			font-size:calc( 100px * 375 / 750 );
+		}
+	}
+	@media screen and (min-width: 412px){
+		html{
+			font-size:calc( 100px * 412 / 750 );
+		}
+	}
+	@media screen and (min-width: 414px){
+		html{
+			font-size:calc( 100px * 414/750);
+		}
+	}
+	@media screen and( min-width: 750px){
+		html{
+			font-size:100px;
+		}
+	}
+	body{
+		font-size:16px;
+	}
+	.header{
+		height:0.88rem;
+		background: #00b7ee;
+	}
+	.banner{
+		height: 3.1rem;
+		background:#ffc069;
+	}
+	.dot-box{
+		height:0.4rem; 
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.dot{
+		width:0.15rem;	
+		height:0.15rem;	
+		border:2px solid #005687;
+		border-radius: 50%;
+		margin:0 0.15rem 0 0.15rem;
+	}
+	.active{
+		background: #005687;
+	}
+	.content{
+		background: #adc6ff;
+		padding:0 0.24rem 0 0.24rem;
+	}
+	.content-header{
+		height:0.85rem;
+		background: #ffc53d;
+	}
+	.content-box{
+		display: flex;
+		justify-content: space-around;	
+		flex-wrap: wrap;
+	}
+	.box{
+		margin:0.2rem;
+		width:1.6rem;
+		height: 2.4rem;
+		background: #ff7875;
+		background-size: cover;
+		background-position: center;
+	}
+	.footer{
+		height:1rem;
+		background: rgba(0, 0, 0, 0.65);
+
+		width:100%;	
+		position:fixed;
+		left:0;
+		bottom:0;
+
+		display: flex;
+	}
+	.nav{
+		width:33.3%;
+		height: 100%;
+		background: #5cdbd3;
+		border-right:1px solid #fff;
+	}
+</style>
+</head><body><div class="header"></div>
+<div class="banner"></div>
+<div class="dot-box">
+	<div class="dot active"></div>
+	<div class="dot"></div>
+	<div class="dot"></div>
+</div>
+<div class="content">
+	<div class="content-header"></div>
+	<div class="content-box">
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+	</div>
+</div>
+<div class="footer">
+	<div class="nav"></div>
+	<div class="nav"></div>
+	<div class="nav"></div>
+</div></body></html>

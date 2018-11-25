@@ -1,0 +1,41 @@
+<html><head><style>
+body{
+	overflow: hidden;
+}
+.point{
+	position: absolute;
+	bottom:0;
+	border-radius:50%;
+	animation:fly .8s ease infinite;
+}
+@keyframes fly {
+	0%{
+		bottom:0;
+	}
+	100%{
+		bottom:100vh;
+	}
+}
+</style>
+
+</head><body>
+
+
+
+<script>
+	for(var i=0; i<30; i++){
+		var el = document.createElement('div');
+		var size = 2 + Math.ceil(Math.random()*10);
+		var r = Math.ceil(Math.random()*100);
+		var g = Math.ceil(Math.random()*155);
+		var b = Math.ceil(Math.random()*155);
+		el.style.background = 'rgba('+r+','+g+','+b+',0.9)';
+		el.style.width =  size + 'px';
+		el.style.height =  size + 'px';
+		el.style.left = Math.ceil(Math.random()*window.innerWidth) + 'px';
+		el.style.animation = 'fly 2s ease ' + i * 0.08 + 's infinite'
+		el.classList.add('point');
+		document.body.appendChild(el);
+	}
+</script><div class="point" style="background: rgba(4, 1, 89, 0.9); width: 6px; height: 6px; left: 872px; animation: fly 2s ease 0s infinite;"></div><div class="point" style="background: rgba(43, 132, 137, 0.9); width: 6px; height: 6px; left: 167px; animation: fly 2s ease 0.08s infinite;"></div><div class="point" style="background: rgba(52, 78, 56, 0.9); width: 10px; height: 10px; left: 590px; animation: fly 2s ease 0.16s infinite;"></div><div class="point" style="background: rgba(69, 48, 111, 0.9); width: 9px; height: 9px; left: 674px; animation: fly 2s ease 0.24s infinite;"></div><div class="point" style="background: rgba(7, 21, 112, 0.9); width: 12px; height: 12px; left: 624px; animation: fly 2s ease 0.32s infinite;"></div><div class="point" style="background: rgba(32, 109, 30, 0.9); width: 12px; height: 12px; left: 158px; animation: fly 2s ease 0.4s infinite;"></div><div class="point" style="background: rgba(20, 11, 133, 0.9); width: 11px; height: 11px; left: 891px; animation: fly 2s ease 0.48s infinite;"></div><div class="point" style="background: rgba(11, 150, 103, 0.9); width: 12px; height: 12px; left: 354px; animation: fly 2s ease 0.56s infinite;"></div><div class="point" style="background: rgba(96, 112, 42, 0.9); width: 9px; height: 9px; left: 189px; animation: fly 2s ease 0.64s infinite;"></div><div class="point" style="background: rgba(96, 128, 122, 0.9); width: 8px; height: 8px; left: 403px; animation: fly 2s ease 0.72s infinite;"></div><div class="point" style="background: rgba(87, 112, 34, 0.9); width: 4px; height: 4px; left: 901px; animation: fly 2s ease 0.8s infinite;"></div><div class="point" style="background: rgba(65, 44, 139, 0.9); width: 8px; height: 8px; left: 380px; animation: fly 2s ease 0.88s infinite;"></div><div class="point" style="background: rgba(93, 67, 136, 0.9); width: 5px; height: 5px; left: 877px; animation: fly 2s ease 0.96s infinite;"></div><div class="point" style="background: rgba(30, 19, 116, 0.9); width: 4px; height: 4px; left: 307px; animation: fly 2s ease 1.04s infinite;"></div><div class="point" style="background: rgba(50, 103, 126, 0.9); width: 11px; height: 11px; left: 800px; animation: fly 2s ease 1.12s infinite;"></div><div class="point" style="background: rgba(89, 93, 10, 0.9); width: 3px; height: 3px; left: 470px; animation: fly 2s ease 1.2s infinite;"></div><div class="point" style="background: rgba(13, 75, 155, 0.9); width: 11px; height: 11px; left: 768px; animation: fly 2s ease 1.28s infinite;"></div><div class="point" style="background: rgba(1, 90, 102, 0.9); width: 8px; height: 8px; left: 73px; animation: fly 2s ease 1.36s infinite;"></div><div class="point" style="background: rgba(61, 134, 142, 0.9); width: 7px; height: 7px; left: 29px; animation: fly 2s ease 1.44s infinite;"></div><div class="point" style="background: rgba(18, 123, 123, 0.9); width: 4px; height: 4px; left: 429px; animation: fly 2s ease 1.52s infinite;"></div><div class="point" style="background: rgba(37, 27, 85, 0.9); width: 12px; height: 12px; left: 615px; animation: fly 2s ease 1.6s infinite;"></div><div class="point" style="background: rgba(83, 151, 34, 0.9); width: 12px; height: 12px; left: 768px; animation: fly 2s ease 1.68s infinite;"></div><div class="point" style="background: rgba(9, 21, 94, 0.9); width: 10px; height: 10px; left: 249px; animation: fly 2s ease 1.76s infinite;"></div><div class="point" style="background: rgba(71, 111, 148, 0.9); width: 12px; height: 12px; left: 763px; animation: fly 2s ease 1.84s infinite;"></div><div class="point" style="background: rgba(93, 14, 68, 0.9); width: 3px; height: 3px; left: 65px; animation: fly 2s ease 1.92s infinite;"></div><div class="point" style="background: rgba(90, 17, 128, 0.9); width: 10px; height: 10px; left: 868px; animation: fly 2s ease 2s infinite;"></div><div class="point" style="background: rgba(100, 44, 94, 0.9); width: 7px; height: 7px; left: 305px; animation: fly 2s ease 2.08s infinite;"></div><div class="point" style="background: rgba(46, 43, 137, 0.9); width: 12px; height: 12px; left: 744px; animation: fly 2s ease 2.16s infinite;"></div><div class="point" style="background: rgba(59, 130, 49, 0.9); width: 11px; height: 11px; left: 376px; animation: fly 2s ease 2.24s infinite;"></div><div class="point" style="background: rgba(31, 49, 84, 0.9); width: 10px; height: 10px; left: 248px; animation: fly 2s ease 2.32s infinite;"></div>
+172.17.212.216:6474</body></html>
